@@ -84,4 +84,4 @@ X = pd.read_csv("./fused_multiview_features.csv")
 T = pd.read_csv("./data/1.csv", header=None).iloc[:, 0]
 E = pd.read_csv("./data/2.csv", header=None).iloc[:, 0]
 
-compare_models(X, T, E, name="kan0.002")
+compare_models(X, T, E, name="kan0.0002")
